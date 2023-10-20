@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+  
+  form{
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 65vh;
+    padding: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    transform: translate(113%);
+  }
+  
+  label{
+    display: block;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 1px;
+  }
+  
+  input{
+    height: 30px;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 17px;
+    color: gray;
+  }
+  
+  input:hover{
+    color: gray;
+  }
+  
+  textarea{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  #btn-sub{
+    font-size: 20px;
+    height: 30px;
+    width: 100%;
+  }
+  
+  #btn-sub:hover{
+    background-color: rgb(101, 214, 101);
+    color: black;
+  }
