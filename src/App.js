@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <form action="#" method="post">
+        <div className="form">
+          <div className="contect">
+            <h1>Contect Us</h1>
+            <hr />
+          </div>
+          <div className="Fname">
+            <label>Full Name</label>
+            <input type="text" className="name" />
+          </div>
+
+          <div className="mail">
+            <label>Email</label>
+            <input type="email" className="email" />
+          </div>
+
+          <div className="sub">
+            <label>Subject</label>
+            <input type="text" className="Subject" />
+          </div>
+
+          <div className="message">
+            <label>Message</label>
+            <textarea className="msg" cols="47" rows="10" placeholder='write message...'></textarea>
+          </div>  
+
+          <div className="submit">
+            <input type="button" value="submit" className='btn-sub'/>
+            </div>
+        </div>
+      </form>
     </div>
   );
 }
